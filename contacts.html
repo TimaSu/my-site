@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+    <html lang="en-US">
+
+  <head>
+
+    <meta charset=UTF-8>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="file2.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+
+<title>Contacts</title>
+  </head>
+
+  <body>
+
+    <!-- шапка-->
+
+    <div class='header'>
+        <div class="logoPic"><img src="images/logo.png" alt="pound logo" class="logo" title="POUND"></div>
+        <div class="topnav" id="myTopnav">
+                <a href="homepage.html"  title="Go to main page">HOME PAGE</a>
+                <a href="gallery.html"  title="To show photos">GALLERY</a>
+                <a href="about.html"  title="TO read who we are">ABOUT US</a>
+                <a href="links.html"  title="useful links">LINKS</a>
+                <a href="contacts.html"  title="To contact us">CONTACTS</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    <script src="menu.js"></script>
+                  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- блок 1-->
+    
+<div class="shell">
+    <div class="cont-img">
+        <img class="dog" src="images/contacts-01.png" alt="dog" title="dog">
+    </div>
+    <h4>contact form</h4>
+</div>
+
+<div class="shell">
+    <div class="cont-form">
+             <form name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="row">
+                    <div class="f-1">
+                        <label for="fname">Name</label>
+                    </div>
+                    <div class="f-2">
+                     <input type="text" id="fname" name="fname" placeholder="Your name.." >
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="f-1">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="f-2">
+                     <input type="text" id="phone" name="phone" placeholder="Your phone..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="f-1">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="f-2">
+                       <input type="text" id="email" name="email" placeholder="Your email..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="f-1">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="f-2">
+                      <textarea id="subject" id="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+    </div>
+</div>
+<script src="form2.js"></script>
+
+
+<div class="map">
+    <div class="range-center">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.673982932983!2d-87.62871818422809!3d41.87836027922215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca3050c2063%3A0x31dd49a132aa1e7e!2zMjggRSBKYWNrc29uIEJsdmQgIyAxMDIwLCBDaGljYWdvLCBJTCA2MDYwNCwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1622223000895!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+
+<div class="container5">
+    <div class="footer">
+      <span>©</span>
+      <span id="copyright-year">2021</span>
+      <hr class="divider-vertical">
+      <a href="privacy.html">Privacy policy</a>
+    </div>
+  </div>
+
+
+
+
+      
+
+</body>
